@@ -1,6 +1,8 @@
 # Geant4-Halfspace-solid
 A new halfspace CSG solid type for Geant4
 
+* NOTE: The documentation of this solid type, as well as the modeling tool McCad, will be provided soon. Please check this webpage in the future one/two weeks for the updates.Also a knowing bug in generating the tessellated solid will be fixed. 
+
 Following these guides in installing the file for Geant4. 
 
 1. Choosing the file suitable for your Geant4 version. Noted that no patch have been applied for your Geant4 code. 
