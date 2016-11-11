@@ -1,7 +1,7 @@
 # Geant4-Halfspace-solid
 A new solid type for Geant4 which is based on semi-algebraic half-spaces. 
 
-Documentation and update version of McCad is now available: https://github.com/inr-kit/McCad-Salome-Binaries . You are highly recommend to go throught first the GDML tutorial in Section 4.3 of the McCad user guide. If you have problem in decomposing the solids, find help from Section 4.4 and also by sending us email. 
+*News: Documentation and update version of McCad is now available: https://github.com/inr-kit/McCad-Salome-Binaries . You are highly recommend to go throught first the GDML tutorial in Section 4.3 of the McCad user guide. If you have problem in decomposing the solids, find help from Section 4.4 and also by sending us email. 
 
 
 Following these guides in installing the file for Geant4. 
