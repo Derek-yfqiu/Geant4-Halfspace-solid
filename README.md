@@ -6,9 +6,10 @@ A new solid type for Geant4 which is based on semi-algebraic half-spaces.
 
 Following these guides in installing the file for Geant4. 
 
-1. Choosing the file suitable for your Geant4 version. Please noted that the version of Geant4 should match exactly, WITHOUT any patch being employed (e.g. p01, p02). 
+1. Choosing the file suitable for your Geant4 version. Please noted that the version of Geant4 should match exactly. 
 
-    link for Geant4.10.02:https://distfiles.macports.org/geant4/geant4.10.02.tar.gz
+    link for Geant4.10.02: https://distfiles.macports.org/geant4/geant4.10.02.tar.gz
+    link for Geant4.10.02.p02:  https://geant4.web.cern.ch/geant4/support/download.shtml
 
 2. Place the "Halfspace" folder in your ${Geant4_SrcDir}/source/geometry/solids. Add a line "add_subdirectory(HalfSpace)" in the CmakeLists.txt
 
