@@ -6,11 +6,16 @@ A new solid type for Geant4 which is based on semi-algebraic half-spaces.
 
 Following these guides in installing the file for Geant4. 
 
-1. Choosing the file suitable for your Geant4 version. Noted that no patch have been applied for your Geant4 code. 
+1. Choosing the file suitable for your Geant4 version. Please noted that the version of Geant4 should match exactly, WITHOUT any patch being employed (e.g. p01, p02). 
 
 2. Place the "Halfspace" folder in your ${Geant4_SrcDir}/source/geometry/solids. Add a line "add_subdirectory(HalfSpace)" in the CmakeLists.txt
 
-3. Replace the "gdml" folder with your ${Geant4_SrcDir}/source/persistency/gdml. 
+3. Add the following line to the file “${Geant4_SrcDir}/source/geometry/solids/Boolean/G4BooleanSolid.hh”, paste it under any “public:” keyword. (I know this step is weird but I will improve it later)
+
+    inline void    SetPolyhedron(G4Polyhedron* aPolyhedron) {fpPolyhedron = aPolyhedron;};
+
+
+3. Replace the "gdml" folder in ${Geant4_SrcDir}/source/persistency with the one provided.
 
 4. Recompile Geant4. 
 
