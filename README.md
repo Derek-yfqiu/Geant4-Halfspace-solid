@@ -9,9 +9,14 @@ Following these guides in installing the file for Geant4.
 1. Choosing the file suitable for your Geant4 version. Please noted that the version of Geant4 should match exactly. 
 
     link for Geant4.10.02: https://distfiles.macports.org/geant4/geant4.10.02.tar.gz
+    
     link for Geant4.10.02.p02:  https://geant4.web.cern.ch/geant4/support/download.shtml
 
-2. Place the "Halfspace" folder in your ${Geant4_SrcDir}/source/geometry/solids. Add a line "add_subdirectory(HalfSpace)" in the CmakeLists.txt
+2. Place the "Halfspace" folder in your ${Geant4_SrcDir}/source/geometry/solids. Then 
+    
+    Add "add_subdirectory(HalfSpace)" as a new line in the  ${Geant4_SrcDir}/source/geometry/solids/CmakeLists.txt
+    
+    Add “solids/HalfSpace/sources.cmake”  as a new line below the list of “source.cmake”  in ${Geant4_SrcDir}/source/geometry/CmakeLists.txt, 
 
 3. Add the following line to the file “${Geant4_SrcDir}/source/geometry/solids/Boolean/G4BooleanSolid.hh”, paste it under any “public:” keyword. (I know this step is weird but I will improve it later)
 
