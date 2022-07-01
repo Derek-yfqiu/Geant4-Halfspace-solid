@@ -10,7 +10,7 @@ Following these guides in installing the file for Geant4.
 
     link for Geant4.10.02: https://distfiles.macports.org/geant4/geant4.10.02.tar.gz
     
-    link for Geant4.10.02.p02:  https://geant4.web.cern.ch/geant4/support/download.shtml
+    link for Geant4.10.02.p02:  http://cern.ch/geant4-data/releases/patch_geant4.10.02.p02.tar.gz
 
 2. Place the "Halfspace" folder in your ${Geant4_SrcDir}/source/geometry/solids. Then 
     
